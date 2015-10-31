@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="15dp"
+
+
+   >
+    <ImageView
+        android:id="@+id/left_quote"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/left_quote_t"
+        android:alpha="0.7"
+       />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_quote"
+    android:layout_toRightOf="@+id/left_quote"
+    android:layout_below="@+id/left_quote"
+    android:layout_gravity="center"
+    android:text="You have to grow from the inside out. None can teach you, none can make you spiritual. There is no other teacher but your own soul."
+    android:textColor="#00BFFF"
+    android:textSize="25sp"
+    android:typeface="monospace"
+    android:textStyle="italic|bold"
+    android:padding="5dp"
+
+    />
+    <ImageView
+        android:id="@+id/right_quote"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/text_quote"
+        android:layout_alignRight="@+id/text_quote"
+        android:src="@drawable/right_quote_t"
+        android:alpha="0.7"
+        />
+
+</RelativeLayout>
